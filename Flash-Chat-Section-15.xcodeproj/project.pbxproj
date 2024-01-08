@@ -13,6 +13,10 @@
 		2C99EEEF2B483E4500424DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EEED2B483E4500424DFA /* Main.storyboard */; };
 		2C99EEF12B483E4600424DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EEF02B483E4600424DFA /* Assets.xcassets */; };
 		2C99EEF42B483E4600424DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C99EEF22B483E4600424DFA /* LaunchScreen.storyboard */; };
+		2C99EEFF2B4842FD00424DFA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EEFE2B4842FD00424DFA /* WelcomeViewController.swift */; };
+		2C99EF012B48432A00424DFA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF002B48432A00424DFA /* RegisterViewController.swift */; };
+		2C99EF032B48435600424DFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF022B48435600424DFA /* LoginViewController.swift */; };
+		2C99EF052B48438200424DFA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF042B48438200424DFA /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2C99EEF02B483E4600424DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C99EEF32B483E4600424DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C99EEF52B483E4600424DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C99EEFE2B4842FD00424DFA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2C99EF002B48432A00424DFA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2C99EF022B48435600424DFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2C99EF042B48438200424DFA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		2C99EEE62B483E4500424DFA /* Flash-Chat-Section-15 */ = {
 			isa = PBXGroup;
 			children = (
+				2C99EEFC2B4841CA00424DFA /* Controllers */,
+				2C99EEFB2B4841AD00424DFA /* Views */,
 				2C99EEE72B483E4500424DFA /* AppDelegate.swift */,
 				2C99EEE92B483E4500424DFA /* SceneDelegate.swift */,
 				2C99EEEB2B483E4500424DFA /* ViewController.swift */,
-				2C99EEED2B483E4500424DFA /* Main.storyboard */,
 				2C99EEF02B483E4600424DFA /* Assets.xcassets */,
 				2C99EEF22B483E4600424DFA /* LaunchScreen.storyboard */,
 				2C99EEF52B483E4600424DFA /* Info.plist */,
 			);
 			path = "Flash-Chat-Section-15";
+			sourceTree = "<group>";
+		};
+		2C99EEFB2B4841AD00424DFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C99EEED2B483E4500424DFA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C99EEFC2B4841CA00424DFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C99EEFE2B4842FD00424DFA /* WelcomeViewController.swift */,
+				2C99EF002B48432A00424DFA /* RegisterViewController.swift */,
+				2C99EF022B48435600424DFA /* LoginViewController.swift */,
+				2C99EF042B48438200424DFA /* ChatViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C99EF032B48435600424DFA /* LoginViewController.swift in Sources */,
 				2C99EEEC2B483E4500424DFA /* ViewController.swift in Sources */,
+				2C99EF012B48432A00424DFA /* RegisterViewController.swift in Sources */,
+				2C99EF052B48438200424DFA /* ChatViewController.swift in Sources */,
+				2C99EEFF2B4842FD00424DFA /* WelcomeViewController.swift in Sources */,
 				2C99EEE82B483E4500424DFA /* AppDelegate.swift in Sources */,
 				2C99EEEA2B483E4500424DFA /* SceneDelegate.swift in Sources */,
 			);
