@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C11E6B02B51822500E5A24E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11E6AF2B51822500E5A24E /* Constants.swift */; };
 		2C4311AB2B500BD800BA0259 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4311AA2B500BD700BA0259 /* GoogleService-Info.plist */; };
+		2C9698402B52848D00383E68 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96983F2B52848D00383E68 /* Message.swift */; };
 		2C99EEE82B483E4500424DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EEE72B483E4500424DFA /* AppDelegate.swift */; };
 		2C99EEEA2B483E4500424DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EEE92B483E4500424DFA /* SceneDelegate.swift */; };
 		2C99EEEC2B483E4500424DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EEEB2B483E4500424DFA /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		2849B4174CA6D9B211A1A9D7 /* Pods_Flash_Chat_Section_15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_Section_15.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C11E6AF2B51822500E5A24E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C4311AA2B500BD700BA0259 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C96983F2B52848D00383E68 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		2C99EEE42B483E4500424DFA /* Flash-Chat-Section-15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash-Chat-Section-15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C99EEE72B483E4500424DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C99EEE92B483E4500424DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C96983E2B52847A00383E68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C96983F2B52848D00383E68 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2C99EEDB2B483E4500424DFA = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		2C99EEE62B483E4500424DFA /* Flash-Chat-Section-15 */ = {
 			isa = PBXGroup;
 			children = (
+				2C96983E2B52847A00383E68 /* Models */,
 				2C99EEFC2B4841CA00424DFA /* Controllers */,
 				2C99EEFB2B4841AD00424DFA /* Views */,
 				2C99EEE72B483E4500424DFA /* AppDelegate.swift */,
@@ -244,6 +255,7 @@
 				2C99EF032B48435600424DFA /* LoginViewController.swift in Sources */,
 				2C99EEEC2B483E4500424DFA /* ViewController.swift in Sources */,
 				2C99EF012B48432A00424DFA /* RegisterViewController.swift in Sources */,
+				2C9698402B52848D00383E68 /* Message.swift in Sources */,
 				2C99EF052B48438200424DFA /* ChatViewController.swift in Sources */,
 				2C99EEFF2B4842FD00424DFA /* WelcomeViewController.swift in Sources */,
 				2C99EEE82B483E4500424DFA /* AppDelegate.swift in Sources */,
