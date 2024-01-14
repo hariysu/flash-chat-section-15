@@ -20,6 +20,8 @@
 		2C99EF012B48432A00424DFA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF002B48432A00424DFA /* RegisterViewController.swift */; };
 		2C99EF032B48435600424DFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF022B48435600424DFA /* LoginViewController.swift */; };
 		2C99EF052B48438200424DFA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99EF042B48438200424DFA /* ChatViewController.swift */; };
+		2CCE5F9F2B53CDF300D88F9A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE5F9D2B53CDF300D88F9A /* MessageCell.swift */; };
+		2CCE5FA02B53CDF300D88F9A /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CCE5F9E2B53CDF300D88F9A /* MessageCell.xib */; };
 		459FCE8C4B62C100CCD05C1F /* Pods_Flash_Chat_Section_15.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2849B4174CA6D9B211A1A9D7 /* Pods_Flash_Chat_Section_15.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		2C99EF002B48432A00424DFA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2C99EF022B48435600424DFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2C99EF042B48438200424DFA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2CCE5F9D2B53CDF300D88F9A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2CCE5F9E2B53CDF300D88F9A /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		7B5664933C82569A65851E67 /* Pods-Flash-Chat-Section-15.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-Section-15.debug.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-Section-15/Pods-Flash-Chat-Section-15.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				2C99EEED2B483E4500424DFA /* Main.storyboard */,
+				2CCE5F9D2B53CDF300D88F9A /* MessageCell.swift */,
+				2CCE5F9E2B53CDF300D88F9A /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCE5FA02B53CDF300D88F9A /* MessageCell.xib in Resources */,
 				2C99EEF42B483E4600424DFA /* LaunchScreen.storyboard in Resources */,
 				2C99EEF12B483E4600424DFA /* Assets.xcassets in Resources */,
 				2C99EEEF2B483E4500424DFA /* Main.storyboard in Resources */,
@@ -253,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C99EF032B48435600424DFA /* LoginViewController.swift in Sources */,
+				2CCE5F9F2B53CDF300D88F9A /* MessageCell.swift in Sources */,
 				2C99EEEC2B483E4500424DFA /* ViewController.swift in Sources */,
 				2C99EF012B48432A00424DFA /* RegisterViewController.swift in Sources */,
 				2C9698402B52848D00383E68 /* Message.swift in Sources */,
