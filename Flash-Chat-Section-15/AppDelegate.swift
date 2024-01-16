@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseCore
 import FirebaseFirestore
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         // To use Firestore as a database
         let db = Firestore.firestore()
+        // Enables IQKeyboardManager to prevent issues of keyboard sliding up and cover UITextField/UITextView
+        IQKeyboardManager.shared.enable = true
+        // Disables autoToolbar behaviour
+        IQKeyboardManager.shared.enableAutoToolbar = false
+        // Hides keyboard if touched outside of UITextField/UITextView.
+        IQKeyboardManager.shared.resignOnTouchOutside = true
         return true
     }
 
