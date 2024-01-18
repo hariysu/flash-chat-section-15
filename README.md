@@ -2,7 +2,7 @@
 
 ## Demo
 
-![Flash Chat Section 15](Documentation/ss-2.mp4)
+![Flash Chat Section 15](Documentation/ss-2.gif)
 
 ## Section content can be seen below:
 
